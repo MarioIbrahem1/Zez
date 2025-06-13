@@ -1,0 +1,189 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    
+    "users": {
+      "$userId": {
+        ".read": true,
+        ".write": true,
+        ".validate": "newData.hasChildren(['name', 'email'])",
+        
+        "fcmToken": {
+          ".read": true,
+          ".write": true,
+          ".validate": "newData.isString() && newData.val().length > 50"
+        },
+        
+        "location": {
+          ".read": true,
+          ".write": true,
+          ".validate": "newData.hasChildren(['latitude', 'longitude', 'updatedAt'])",
+          
+          "latitude": {
+            ".validate": "newData.isNumber() && newData.val() >= -90 && newData.val() <= 90"
+          },
+          
+          "longitude": {
+            ".validate": "newData.isNumber() && newData.val() >= -180 && newData.val() <= 180"
+          }
+        },
+        
+        "helpRequests": {
+          "$requestId": {
+            ".read": true,
+            ".write": true,
+            ".validate": "newData.hasChildren(['senderId', 'receiverId', 'status', 'timestamp'])"
+          }
+        },
+        
+        "notifications": {
+          "$notificationId": {
+            ".read": true,
+            ".write": true,
+            ".validate": "newData.hasChildren(['type', 'title', 'body', 'timestamp'])"
+          }
+        }
+      }
+    },
+    
+    "helpRequests": {
+      "$requestId": {
+        ".read": true,
+        ".write": true,
+        ".validate": "newData.hasChildren(['senderId', 'receiverId', 'status', 'timestamp'])",
+        
+        "senderId": {
+          ".validate": "newData.isString() && newData.val().length > 0"
+        },
+        
+        "receiverId": {
+          ".validate": "newData.isString() && newData.val().length > 0"
+        },
+        
+        "status": {
+          ".validate": "newData.isString() && (newData.val() == 'pending' || newData.val() == 'accepted' || newData.val() == 'rejected' || newData.val() == 'completed')"
+        },
+        
+        "timestamp": {
+          ".validate": "newData.isNumber()"
+        }
+      }
+    },
+    
+    "notifications": {
+      "$notificationId": {
+        ".read": true,
+        ".write": true,
+        ".validate": "newData.hasChildren(['userId', 'type', 'title', 'body', 'timestamp'])",
+        
+        "userId": {
+          ".validate": "newData.isString() && newData.val().length > 0"
+        },
+        
+        "type": {
+          ".validate": "newData.isString() && (newData.val() == 'help_request' || newData.val() == 'chat' || newData.val() == 'system')"
+        },
+        
+        "timestamp": {
+          ".validate": "newData.isNumber()"
+        }
+      }
+    },
+    
+    "chats": {
+      "$chatId": {
+        ".read": true,
+        ".write": true,
+
+        "messages": {
+          "$messageId": {
+            ".read": true,
+            ".write": true,
+            ".validate": "newData.hasChildren(['senderId', 'receiverId', 'content', 'timestamp'])",
+
+            "senderId": {
+              ".validate": "newData.isString() && newData.val().length > 0"
+            },
+
+            "receiverId": {
+              ".validate": "newData.isString() && newData.val().length > 0"
+            },
+
+            "content": {
+              ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 1000"
+            },
+
+            "type": {
+              ".validate": "newData.isString() && (newData.val() == 'text' || newData.val() == 'location' || newData.val() == 'image' || newData.val() == 'system')"
+            },
+
+            "timestamp": {
+              ".validate": "newData.isNumber()"
+            },
+
+            "isRead": {
+              ".validate": "newData.isBoolean()"
+            }
+          }
+        }
+      }
+    },
+
+    "userChats": {
+      "$userId": {
+        ".read": true,
+        ".write": true,
+
+        "$chatId": {
+          ".read": true,
+          ".write": true,
+          ".validate": "newData.hasChildren(['chatId', 'participants', 'lastMessage', 'lastMessageTime'])",
+
+          "chatId": {
+            ".validate": "newData.isString() && newData.val().length > 0"
+          },
+
+          "participants": {
+            ".validate": "newData.hasChildren() && newData.children().length == 2"
+          },
+
+          "lastMessage": {
+            ".validate": "newData.isString() && newData.val().length <= 1000"
+          },
+
+          "lastMessageTime": {
+            ".validate": "newData.isNumber()"
+          },
+
+          "lastMessageSender": {
+            ".validate": "newData.isString() && newData.val().length > 0"
+          }
+        }
+      }
+    },
+    
+    "systemStatus": {
+      ".read": true,
+      ".write": false,
+      
+      "maintenance": {
+        ".read": true,
+        ".write": false
+      },
+      
+      "version": {
+        ".read": true,
+        ".write": false
+      }
+    },
+    
+    "analytics": {
+      "$eventId": {
+        ".read": false,
+        ".write": true,
+        ".validate": "newData.hasChildren(['eventType', 'timestamp'])"
+      }
+    }
+  }
+}

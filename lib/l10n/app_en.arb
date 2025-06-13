@@ -1,0 +1,1702 @@
+{
+  "@@locale": "en",
+  "welcomeBack": "Welcome back!",
+  "@welcomeBack": {
+    "description": "Welcome message for returning users"
+  },
+  "enterYourEmail": "Enter your email",
+  "@enterYourEmail": {
+    "description": "Placeholder text for email input field"
+  },
+  "email": "Email",
+  "@email": {
+    "description": "Label for email field"
+  },
+  "pleaseEnterYourEmail": "Please enter your email",
+  "@pleaseEnterYourEmail": {
+    "description": "Validation message for empty email field"
+  },
+  "pleaseEnterAValidEmail": "Please enter a valid email",
+  "@pleaseEnterAValidEmail": {
+    "description": "Validation message for invalid email format"
+  },
+  "enterYourPassword": "Enter your password",
+  "@enterYourPassword": {
+    "description": "Placeholder text for password input field"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Label for password field"
+  },
+  "pleaseEnterYourPassword": "Please enter your password",
+  "@pleaseEnterYourPassword": {
+    "description": "Validation message for empty password field"
+  },
+  "passwordMustBeAtLeast6Characters": "Password must be at least 6 characters",
+  "@passwordMustBeAtLeast6Characters": {
+    "description": "Validation message for password length"
+  },
+  "rememberMe": "Remember me",
+  "@rememberMe": {
+    "description": "Checkbox label for remember login"
+  },
+  "forgotPassword": "Forgot password?",
+  "@forgotPassword": {
+    "description": "Link text for password recovery"
+  },
+  "login": "Login",
+  "@login": {
+    "description": "Login button text"
+  },
+  "dontHaveAnAccount": "Don't have an account?",
+  "@dontHaveAnAccount": {
+    "description": "Text asking if user doesn't have account"
+  },
+  "register": "Register now",
+  "@register": {
+    "description": "Registration link text"
+  },
+  "editProfile": "Edit profile",
+  "@editProfile": {
+    "description": "Edit profile menu item"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language settings menu item"
+  },
+  "darkMode": "Dark mode",
+  "@darkMode": {
+    "description": "Dark mode toggle setting"
+  },
+  "about": "About",
+  "@about": {
+    "description": "About menu item"
+  },
+  "logout": "Logout",
+  "@logout": {
+    "description": "Logout menu item"
+  },
+  "english": "English",
+  "@english": {
+    "description": "English language option"
+  },
+  "arabic": "Arabic",
+  "@arabic": {
+    "description": "Arabic language option"
+  },
+  "changeProfileImage": "Change profile image",
+  "@changeProfileImage": {
+    "description": "Option to change profile picture"
+  },
+  "otpVerification": "OTP Verification",
+  "@otpVerification": {
+    "description": "OTP verification screen title"
+  },
+  "enterOtpSentToEmail": "Enter the code sent to {email}",
+  "@enterOtpSentToEmail": {
+    "description": "Instruction to enter OTP code",
+    "placeholders": {
+      "email": {
+        "type": "String",
+        "description": "User's email address"
+      }
+    }
+  },
+  "resendOtp": "Resend code",
+  "@resendOtp": {
+    "description": "Button to resend OTP code"
+  },
+  "resendInSecondsSec": "Resend in {seconds} seconds",
+  "@resendInSecondsSec": {
+    "description": "Timer text for OTP resend",
+    "placeholders": {
+      "seconds": {
+        "type": "int",
+        "description": "Number of seconds remaining"
+      }
+    }
+  },
+  "timer": "Timer",
+  "@timer": {
+    "description": "Timer label"
+  },
+  "otpExpired": "OTP expired",
+  "@otpExpired": {
+    "description": "Message when OTP has expired"
+  },
+  "weHaveSentAVerificationCodeToTheEmailAgmailcom": "We have sent a verification code to the email \"A**@gmail.com\"",
+  "@weHaveSentAVerificationCodeToTheEmailAgmailcom": {
+    "description": "OTP verification message"
+  },
+  "thisIsATemporaryCodeDoNotShareItWithAnyoneSharingTheOtpWithOthersCanLeadToSignificantSecurityRisksTheOtpIsIntendedToBeAPrivateCode": "This is a temporary code, do not share it with anyone. Sharing the OTP with others can lead to significant security risks. The OTP is intended to be a private code.",
+  "@thisIsATemporaryCodeDoNotShareItWithAnyoneSharingTheOtpWithOthersCanLeadToSignificantSecurityRisksTheOtpIsIntendedToBeAPrivateCode": {
+    "description": "OTP security warning message"
+  },
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications menu item"
+  },
+  "privacy": "Privacy",
+  "@privacy": {
+    "description": "Privacy menu item"
+  },
+  "security": "Security",
+  "@security": {
+    "description": "Security menu item"
+  },
+  "help": "Help",
+  "@help": {
+    "description": "Help menu item"
+  },
+  "termsAndConditions": "Terms and conditions",
+  "@termsAndConditions": {
+    "description": "Terms and conditions menu item"
+  },
+  "contactUs": "Contact us",
+  "@contactUs": {
+    "description": "Contact us menu item"
+  },
+  "otpVerificationText": "We have sent a verification code to the email \"A**@gmail.com\"",
+  "@otpVerificationText": {
+    "description": "OTP verification text"
+  },
+  "otpAllFieldsRequired": "All fields are required",
+  "@otpAllFieldsRequired": {
+    "description": "Validation message for OTP fields"
+  },
+  "verify": "Verify",
+  "@verify": {
+    "description": "Verify button text"
+  },
+  "enterCode": "Enter code",
+  "@enterCode": {
+    "description": "Instruction to enter verification code"
+  },
+  "theOtpHasExpired": "The OTP has expired!",
+  "@theOtpHasExpired": {
+    "description": "Message when OTP expires"
+  },
+  "requestOtp": "Request OTP",
+  "@requestOtp": {
+    "description": "Button to request new OTP"
+  },
+  "backToLogin": "Back to login",
+  "@backToLogin": {
+    "description": "Link to go back to login screen"
+  },
+  "getStarted": "Get started",
+  "ifYouveGotTheTimeWeveGotTheShine": "If you've got the time, we've got the shine",
+  "justTheProtectionYouAndYourCarNeedSpeakToUsForBestServices": "Just the protection you and your car need\nSpeak to us for best services",
+  "signUp": "Sign Up",
+  "signIn": "Sign In",
+  "locationRequired": "Location required",
+  "pleaseEnableLocationServicesToContinue": "Please enable location services to continue.",
+  "ok": "OK",
+  "emergencyContacts": "Emergency contacts",
+  "enterEmergencyPhoneNumber": "Enter emergency phone number",
+  "example": "Example: 1234567890",
+  "addContact": "Add contact",
+  "addedContacts": "View added contacts",
+  "deleteContact": "Delete contact",
+  "weWillSendYouAnOneTimePasswordOnYourEmailAddress": "We will send you a one-time password on your email address",
+  "getOtp": "Get code",
+  "pleaseEnterAValidEmailAddress": "Please enter a valid email address",
+  "invalidEmail": "Invalid email",
+  "dontHaveAnAccountRegister": "Don't have an account? Register now",
+  "fullName": "Full name",
+  "phoneNumber": "Phone number",
+  "confirmPassword": "Confirm password",
+  "username": "Username",
+  "firstName": "First name",
+  "lastName": "Last name",
+  "carSettings": "Car settings",
+  "carNumber": "Car number",
+  "carColor": "Car color",
+  "carKind": "Car type",
+  "updateChanges": "Update changes",
+  "primaryGradient": "Primary gradient",
+  "primaryBlue": "Primary blue",
+  "white": "White",
+  "errorRed": "Error red",
+  "successGreen": "Success green",
+  "buttonColor": "Button color",
+  "otpLength": "OTP length",
+  "otpTimeout": "OTP timeout",
+  "carNumberType": "Car number type",
+  "numbersOnly": "Numbers only",
+  "lettersAndNumbers": "Letters and numbers",
+  "enterPlateNumber": "Enter plate number",
+  "pleaseEnterNumbers": "Please enter numbers",
+  "mustBeAtLeast1NumberAndMax7Digits": "Must be at least 1 number and max 7 digits",
+  "letters": "Letters",
+  "plateNumbers": "Plate numbers",
+  "required": "Required",
+  "enterCarColor": "Enter car color",
+  "pleaseEnterCarColor": "Please enter car color",
+  "carModel": "Car model",
+  "enterCarModel": "Enter car model",
+  "pleaseEnterCarModel": "Please enter car model",
+  "welcomeToYourSmartRoadAssistant": "Welcome to your Smart Road Assistant",
+  "askMeAnythingAboutYourCarOrRoadTroublesAndIllHelpInstantly": "Ask me anything about your car or road troubles and I'll help instantly",
+  "aiChat": "AI Chat",
+  "typeHere": "Type here",
+  "smartRoadAssistant": "Smart Road Assistant",
+  "weHelpYouWithAnyRoadIssues": "We help you with any road issues",
+  "chatWithAi": "Chat with AI",
+  "discoverHowTheSmartAssistantCanHelp": "Discover how the smart assistant can help",
+  "home": "Home",
+  "map": "Map",
+  "chat": "Chat",
+  "notificationsNav": "Notifications",
+  "profile": "Profile",
+  "camera": "Camera",
+  "@camera": {
+    "description": "Camera option for image capture"
+  },
+  "send": "Send",
+  "@send": {
+    "description": "Send button text"
+  },
+  "back": "Back",
+  "@back": {
+    "description": "Back button text"
+  },
+  "signUpButton": "Sign Up",
+  "enterYourFullName": "Enter your full name",
+  "enterYourPhoneNumber": "Enter your phone number",
+  "pleaseEnterPhoneNumber": "Please enter your phone number",
+  "alreadyHaveAnAccount": "Already have an account?",
+  "rememberFor30Days": "Remember me for 30 days",
+  "allFieldsMustBeFilledOut": "All fields must be filled out",
+  "otpVerificationTitle": "OTP Verification",
+  "newPassword": "New password",
+  "rewriteNewPassword": "Rewrite new password",
+  "passwordMustHave": "Password must contain:",
+  "oneCapitalLetterOrMore": "At least one capital letter",
+  "oneSpecialCharacterOrMore": "At least one special character",
+  "oneNumberOrMore": "At least one number",
+  "passwordsMatch": "Passwords match",
+  "resetPassword": "Reset Password",
+  "success": "Success!",
+  "passwordResetSuccessfully": "Password reset successfully",
+  "done": "Done",
+  "providingTheBestAiSolutions": "Providing the best AI solutions",
+  "readyToCheckCarRepairNeeds": "Ready to check your car repair needs!",
+  "answerOfYourQuestions": "Answers to your questions",
+  "justAskMeAnythingYouLike": "( Just ask me anything you like )",
+  "availableForYouAllDay": "Available for you all day",
+  "feelFreeToAskAnytime": "( Feel free to ask anytime )",
+  "askMeAnything": "Ask me anything...",
+  "yourLocationEgypt": "Your location: Egypt",
+  "getYouBackOnTrack": "Get you back \n on track with just a few taps",
+  "getYourServices": "Get your services",
+  "gasStation": "Gas station",
+  "policeDepartment": "Police department",
+  "fireExtinguisher": "Fire extinguisher",
+  "hospital": "Hospital",
+  "maintenanceCenter": "Maintenance center",
+  "winch": "Winch",
+  "notificationsTitle": "Notifications",
+  "clearAll": "Clear all",
+  "noNotifications": "No notifications",
+  "notificationInboxEmpty": "Notification inbox is empty",
+  "atLeast3Characters": "At least 3 characters",
+  "phone": "Phone",
+  "passwordMustBeAtLeast8Characters": "Password must be at least 8 characters",
+  "passwordsDoNotMatch": "Passwords do not match",
+  "forgotPasswordQuestion": "Forgot your password?",
+  "mustBeExactly11Digits": "Must be exactly 11 digits",
+  "or": "or",
+  "nextPage": "Next page",
+  "profileScreen": "Profile screen",
+  "warning": "Warning",
+  "pleaseSelectBetween1To3Services": "Please select between 1 to 3 services.",
+  "location": "Location",
+  "mapScreen": "Map screen",
+  "fetchingLocation": "Fetching location...",
+  "pleaseSelectAtLeastOneService": "Please select at least one service!",
+  "aboutUs": "About us",
+  "emergencyServices": "Emergency services",
+  "gasStations": "Gas stations",
+  "communityHelp": "Community help",
+  "aboutTheApp": "About the app",
+  "emergencyServicesDescription": "Quickly locate nearby hospitals, police stations, and emergency contacts",
+  "gasStationsDescription": "Find the nearest fuel stations with real-time availability information",
+  "communityHelpDescription": "Request assistance from nearby users in case of emergencies",
+  "missionDescription": "Our mission is to make your journeys safer and more convenient through innovative technology solutions.",
+  "technologyDescription": "The app combines real-time location services with AI to provide intelligent assistance when you need it most",
+  "contactEmail": "Contact: roadhelper200@gmail.com",
+  "missionAndTechnologyDescription": "Our mission is to make your journeys safer and more convenient through innovative technology solutions.\nThe app combines real-time location services with AI to provide intelligent assistance when you need it most.",
+  "versionLabel": "Version:",
+  "version": "Version: 1.0.0",
+  "developer": "Developer: Smart Road Assistant Team",
+  "allRightsReserved": "All rights reserved © 2025",
+
+  "passwordResetSuccessful": "Your password has been reset successfully. You can now login with your new password",
+  "continueToLogin": "Continue to Login",
+  "loginSuccessful": "You have successfully logged in to your account",
+  "registrationSuccessful": "Your account has been created successfully. You can now login with your credentials",
+  "passwordMismatch": "The passwords you entered do not match. Please try again",
+  "invalidCredentials": "The email or password you entered is incorrect. Please try again",
+  "networkError": "Please check your internet connection and try again",
+  "serverError": "Something went wrong with the server. Please try again later",
+  "validationError": "Validation Error",
+  "error": "Error",
+  "unknownPlace": "Unknown Place",
+  "directions": "Directions",
+  "call": "Call",
+  "share": "Share",
+  "tryAgain": "Try Again",
+  "continueText": "Continue",
+
+  "errorLoadingProfile": "Error loading profile",
+  "couldNotLoadProfileImage": "Could not load profile image. Please try again later",
+  "uploadingImage": "Uploading image...",
+  "gallery": "Gallery",
+  "@gallery": {
+    "description": "Gallery option for image selection"
+  },
+  "userEmailNotFound": "User email not found. Please log in again",
+  "@userEmailNotFound": {
+    "description": "Error message when user email is not found"
+  },
+  "errorUploadingImage": "Error uploading image",
+  "@errorUploadingImage": {
+    "description": "Error message for image upload failure"
+  },
+  "profileImageUpdated": "Profile image updated successfully",
+  "@profileImageUpdated": {
+    "description": "Success message for profile image update"
+  },
+  "failedToUploadImage": "Failed to upload image. Please try again",
+  "@failedToUploadImage": {
+    "description": "Error message for failed image upload"
+  },
+  "resendInSeconds": "Resend in {timeLeft} seconds",
+  "@resendInSeconds": {
+    "description": "Timer text for OTP resend",
+    "placeholders": {
+      "timeLeft": {
+        "type": "int",
+        "description": "Time remaining in seconds"
+      }
+    }
+  },
+  "helpRequest": "Help Request",
+  "@helpRequest": {
+    "description": "Help request notification title"
+  },
+  "accept": "Accept",
+  "@accept": {
+    "description": "Accept button text"
+  },
+  "decline": "Decline",
+  "@decline": {
+    "description": "Decline button text"
+  },
+  "youHaveReceivedHelpRequest": "You have received a help request from:",
+  "@youHaveReceivedHelpRequest": {
+    "description": "Help request notification message"
+  },
+  "failedToRespondToHelpRequest": "Failed to respond to help request",
+  "@failedToRespondToHelpRequest": {
+    "description": "Error message for failed help request response"
+  },
+  "distance": "Distance",
+  "@distance": {
+    "description": "Distance label"
+  },
+  "kmAway": "{distance} km away",
+  "@kmAway": {
+    "description": "Distance measurement text",
+    "placeholders": {
+      "distance": {
+        "type": "double",
+        "description": "Distance in kilometers"
+      }
+    }
+  },
+  "name": "Name",
+  "@name": {
+    "description": "Name label"
+  },
+  "car": "Car",
+  "@car": {
+    "description": "Car label"
+  },
+  "color": "Color",
+  "@color": {
+    "description": "Color label"
+  },
+  "message": "Message",
+  "@message": {
+    "description": "Message label"
+  },
+  "updateAvailable": "Update Available",
+  "@updateAvailable": {
+    "description": "Update notification title"
+  },
+  "updateAvailableMessage": "Version {version} is now available. Tap to update.",
+  "@updateAvailableMessage": {
+    "description": "Update notification message",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "description": "New version number"
+      }
+    }
+  },
+  "newNotification": "New Notification",
+  "@newNotification": {
+    "description": "New notification title"
+  },
+  "otpSent": "OTP Sent",
+  "@otpSent": {
+    "description": "OTP sent confirmation title"
+  },
+  "otpSentToEmail": "OTP has been sent to your email",
+  "@otpSentToEmail": {
+    "description": "OTP sent confirmation message"
+  },
+  "resendCode": "Resend Code",
+  "@resendCode": {
+    "description": "Button to resend OTP code"
+  },
+  "signInWithGoogle": "Sign in with Google",
+  "@signInWithGoogle": {
+    "description": "Google sign in button text"
+  },
+  "signUpWithGoogle": "Sign up with Google",
+  "@signUpWithGoogle": {
+    "description": "Google sign up button text"
+  },
+  "errorInVerification": "Error in verification",
+  "@errorInVerification": {
+    "description": "Error message for verification failure"
+  },
+  "pleaseEnterA6DigitOTPCode": "Please enter a 6-digit OTP code",
+  "@pleaseEnterA6DigitOTPCode": {
+    "description": "Validation message for OTP code format"
+  },
+  "emailAlreadyExists": "This email is already associated with an existing account. Please login instead of signing up.",
+  "@emailAlreadyExists": {
+    "description": "Error message when email already exists"
+  },
+  "licenseCaptureTitle": "Driver's License Capture",
+  "@licenseCaptureTitle": {
+    "description": "Title for license capture screen"
+  },
+  "placeLicenseInFrameFront": "Place the license in the frame and capture the front side",
+  "@placeLicenseInFrameFront": {
+    "description": "Instruction for capturing front of license"
+  },
+  "flipLicenseAndCaptureBack": "Flip the license and capture the back side",
+  "@flipLicenseAndCaptureBack": {
+    "description": "Instruction for capturing back of license"
+  },
+  "placeLicenseInFrame": "Place the driver's license in the frame",
+  "@placeLicenseInFrame": {
+    "description": "General instruction for license placement"
+  },
+  "frontSide": "Front Side",
+  "@frontSide": {
+    "description": "Label for front side of license"
+  },
+  "backSide": "Back Side",
+  "@backSide": {
+    "description": "Label for back side of license"
+  },
+  "placeLicenseHereFront": "Place driver's license here\n(Front Side)",
+  "@placeLicenseHereFront": {
+    "description": "Placeholder text for front license capture"
+  },
+  "placeLicenseHereBack": "Place driver's license here\n(Back Side)",
+  "@placeLicenseHereBack": {
+    "description": "Placeholder text for back license capture"
+  },
+  "preparingCamera": "Preparing camera...",
+  "@preparingCamera": {
+    "description": "Loading message for camera preparation"
+  },
+  "captureError": "Error capturing image",
+  "@captureError": {
+    "description": "Error message for image capture failure"
+  },
+  "retakePhoto": "Retake",
+  "@retakePhoto": {
+    "description": "Button to retake photo"
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Confirm button text"
+  },
+  "completed": "Done",
+  "@completed": {
+    "description": "Completion status text"
+  },
+  "flipToBack": "Flip to Back",
+  "@flipToBack": {
+    "description": "Button to flip to back side capture"
+  },
+  "captureFront": "Capture Front",
+  "@captureFront": {
+    "description": "Button to capture front side"
+  },
+  "captureBack": "Capture Back",
+  "@captureBack": {
+    "description": "Button to capture back side"
+  },
+  "capturing": "Capturing...",
+  "@capturing": {
+    "description": "Status text during image capture"
+  },
+  "retake": "Retake",
+  "@retake": {
+    "description": "Button to retake image"
+  },
+  "continueNext": "Continue",
+  "@continueNext": {
+    "description": "Button to continue to next step"
+  },
+  "pleaseCaptureBothSides": "Please capture both front and back of the license",
+  "@pleaseCaptureBothSides": {
+    "description": "Validation message for license capture completion"
+  },
+  "nearestPlace": "Nearest Place",
+  "@nearestPlace": {
+    "description": "Label for nearest place card"
+  },
+  "distanceUnknown": "Distance unknown",
+  "@distanceUnknown": {
+    "description": "Text shown when distance cannot be calculated"
+  },
+  "timeUnknown": "Time unknown",
+  "@timeUnknown": {
+    "description": "Text shown when travel time cannot be calculated"
+  },
+  "details": "Details",
+  "@details": {
+    "description": "Button text for showing place details"
+  },
+  "hideRoute": "Hide Route",
+  "@hideRoute": {
+    "description": "Button text for hiding route on map"
+  },
+  "showRoute": "Show Route",
+  "@showRoute": {
+    "description": "Button text for showing route on map"
+  },
+  "alternativeRoutes": "Alternative Routes",
+  "@alternativeRoutes": {
+    "description": "Button text for showing alternative routes"
+  },
+  "navigation": "Navigation",
+  "@navigation": {
+    "description": "Button text for starting navigation"
+  },
+  "meters": "m",
+  "@meters": {
+    "description": "Abbreviation for meters unit"
+  },
+  "kilometers": "km",
+  "@kilometers": {
+    "description": "Abbreviation for kilometers unit"
+  },
+  "sosEmergencyConfiguration": "Emergency SOS Configuration",
+  "@sosEmergencyConfiguration": {
+    "description": "Title for SOS settings screen"
+  },
+  "configureEmergencyAlerts": "Configure how you want to trigger emergency alerts",
+  "@configureEmergencyAlerts": {
+    "description": "Subtitle for SOS settings screen"
+  },
+  "sosService": "SOS Service",
+  "@sosService": {
+    "description": "SOS service toggle title"
+  },
+  "enableDisableEmergencySOS": "Enable/disable emergency SOS functionality",
+  "@enableDisableEmergencySOS": {
+    "description": "SOS service toggle subtitle"
+  },
+  "powerButtonTrigger": "Power Button Trigger",
+  "@powerButtonTrigger": {
+    "description": "Power button trigger toggle title"
+  },
+  "triplePowerButtonSOS": "Triple press power button to send SOS",
+  "@triplePowerButtonSOS": {
+    "description": "Power button trigger toggle subtitle"
+  },
+  "manageEmergencyContacts": "Manage Emergency Contacts",
+  "@manageEmergencyContacts": {
+    "description": "Button text for managing emergency contacts"
+  },
+  "howToUseSOS": "How to use SOS:",
+  "@howToUseSOS": {
+    "description": "Instructions section title"
+  },
+  "sosInstructions": "• Triple press power button quickly to trigger SOS\n• Tap the emergency button on the home screen\n• Make sure to set up emergency contacts first",
+  "@sosInstructions": {
+    "description": "SOS usage instructions"
+  },
+  "enableSOSEmergencyService": "Enable SOS Emergency Service",
+  "@enableSOSEmergencyService": {
+    "description": "Title for enabling SOS emergency service"
+  },
+  "enableAccessibilityServiceSOS": "Enable accessibility service to use SOS power button trigger",
+  "@enableAccessibilityServiceSOS": {
+    "description": "Message to enable accessibility service for SOS"
+  },
+  "emergencyContactInformation": "Emergency Contact Information",
+  "@emergencyContactInformation": {
+    "description": "Title for emergency contacts screen"
+  },
+  "loadingSavedEmergencyContacts": "Loading saved emergency contacts...",
+  "@loadingSavedEmergencyContacts": {
+    "description": "Loading message for emergency contacts"
+  },
+  "setupEmergencyContactsForSOS": "Set up your emergency contacts for SOS alerts",
+  "@setupEmergencyContactsForSOS": {
+    "description": "Description for emergency contacts setup"
+  },
+  "firstName": "First Name",
+  "@firstName": {
+    "description": "First name field label"
+  },
+  "pleaseEnterFirstName": "Please enter your first name",
+  "@pleaseEnterFirstName": {
+    "description": "Validation message for first name"
+  },
+  "firstNameLettersOnly": "First name should contain only letters",
+  "@firstNameLettersOnly": {
+    "description": "Validation message for first name format"
+  },
+  "firstNameMinLength": "First name should be at least 3 characters",
+  "@firstNameMinLength": {
+    "description": "Validation message for first name minimum length"
+  },
+  "firstNameMaxLength": "First name should not exceed 13 characters",
+  "@firstNameMaxLength": {
+    "description": "Validation message for first name maximum length"
+  },
+  "clearEmergencyData": "Clear Emergency Data",
+  "@clearEmergencyData": {
+    "description": "Title for clearing emergency data dialog"
+  },
+  "clearEmergencyDataConfirmation": "Are you sure you want to clear all saved emergency contact information? This action cannot be undone.",
+  "@clearEmergencyDataConfirmation": {
+    "description": "Confirmation message for clearing emergency data"
+  },
+  "sosServiceActive": "SOS Service Active",
+  "@sosServiceActive": {
+    "description": "Notification title for active SOS service"
+  },
+  "triplePressForEmergency": "Triple press power button for emergency",
+  "@triplePressForEmergency": {
+    "description": "Notification content for SOS service"
+  },
+  "sosEmergencyMessage": "SOS! {userName} needs help!\nCurrent coordinates: {latitude}, {longitude}\nBattery: {batteryLevel}%\nIMPORTANT: Copy the coordinates and put them in Google Maps to show the actual location.",
+  "@sosEmergencyMessage": {
+    "description": "Emergency SMS message template",
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "description": "User's name"
+      },
+      "latitude": {
+        "type": "double",
+        "description": "GPS latitude"
+      },
+      "longitude": {
+        "type": "double",
+        "description": "GPS longitude"
+      },
+      "batteryLevel": {
+        "type": "int",
+        "description": "Battery percentage"
+      }
+    }
+  },
+  "failedToSendEmergencyAlert": "Failed to send emergency alert. Please try again.",
+  "@failedToSendEmergencyAlert": {
+    "description": "Error message for failed emergency alert"
+  },
+  "checkingSOSPermissions": "Checking SOS permissions...",
+  "@checkingSOSPermissions": {
+    "description": "Loading message while checking SOS permissions"
+  },
+  "sosFullyEnabled": "SOS Fully Enabled",
+  "@sosFullyEnabled": {
+    "description": "Status title when all SOS permissions are granted"
+  },
+  "sosPartiallyEnabled": "SOS Partially Enabled",
+  "@sosPartiallyEnabled": {
+    "description": "Status title when some SOS permissions are missing"
+  },
+  "sosDisabled": "SOS Disabled",
+  "@sosDisabled": {
+    "description": "Status title when SOS permissions are not granted"
+  },
+  "allRequiredPermissionsGranted": "All required permissions are granted. SOS emergency feature is ready to use.",
+  "@allRequiredPermissionsGranted": {
+    "description": "Description when all SOS permissions are granted"
+  },
+  "somePermissionsMissing": "Some permissions are missing. SOS functionality may be limited.",
+  "@somePermissionsMissing": {
+    "description": "Description when some SOS permissions are missing"
+  },
+  "sosPermissionsNotGranted": "SOS permissions are not granted. Emergency features will not work.",
+  "@sosPermissionsNotGranted": {
+    "description": "Description when SOS permissions are not granted"
+  },
+  "permissionDetails": "Permission Details:",
+  "@permissionDetails": {
+    "description": "Header for detailed permission list"
+  },
+  "refreshStatus": "Refresh Status",
+  "@refreshStatus": {
+    "description": "Button text to refresh permission status"
+  },
+  "grantMissingPermissions": "Grant Missing Permissions",
+  "@grantMissingPermissions": {
+    "description": "Button text to grant missing permissions"
+  },
+  "enableSOSPermissions": "Enable SOS Permissions",
+  "@enableSOSPermissions": {
+    "description": "Button text to enable SOS permissions"
+  },
+  "allSOSPermissionsGrantedSuccessfully": "All SOS permissions granted successfully!",
+  "@allSOSPermissionsGrantedSuccessfully": {
+    "description": "Success message when all SOS permissions are granted"
+  },
+  "errorRequestingPermissions": "Error requesting permissions. Please try again.",
+  "@errorRequestingPermissions": {
+    "description": "Error message when requesting permissions fails"
+  },
+  "phonePermission": "Phone",
+  "@phonePermission": {
+    "description": "Phone permission name"
+  },
+  "smsPermission": "SMS",
+  "@smsPermission": {
+    "description": "SMS permission name"
+  },
+  "locationPermission": "Location",
+  "@locationPermission": {
+    "description": "Location permission name"
+  },
+  "contactsPermission": "Contacts",
+  "@contactsPermission": {
+    "description": "Contacts permission name"
+  },
+  "notificationPermission": "Notifications",
+  "@notificationPermission": {
+    "description": "Notification permission name"
+  },
+  "granted": "Granted",
+  "@granted": {
+    "description": "Permission status when granted"
+  },
+  "denied": "Denied",
+  "@denied": {
+    "description": "Permission status when denied"
+  },
+  "sosEmergencyPermissions": "SOS Emergency Permissions",
+  "@sosEmergencyPermissions": {
+    "description": "Title for SOS emergency permissions screen"
+  },
+  "sosEmergencyFeatureRequiresPermissions": "The SOS emergency feature requires several permissions to function properly and help you in emergency situations.",
+  "@sosEmergencyFeatureRequiresPermissions": {
+    "description": "Description of why SOS permissions are needed"
+  },
+  "thesePermissionsAllowAppTo": "These permissions allow the app to:",
+  "@thesePermissionsAllowAppTo": {
+    "description": "Header for permission capabilities list"
+  },
+  "makeEmergencyCallsToContacts": "Make emergency calls to your contacts",
+  "@makeEmergencyCallsToContacts": {
+    "description": "Permission capability description"
+  },
+  "sendEmergencySMSWithLocation": "Send emergency SMS with your location",
+  "@sendEmergencySMSWithLocation": {
+    "description": "Permission capability description"
+  },
+  "accessLocationForRescue": "Access your location for rescue",
+  "@accessLocationForRescue": {
+    "description": "Permission capability description"
+  },
+  "sendEmergencyNotifications": "Send emergency notifications",
+  "@sendEmergencyNotifications": {
+    "description": "Permission capability description"
+  },
+  "continueButton": "Continue",
+  "@continueButton": {
+    "description": "Continue button text"
+  },
+  "whatSOSCanDo": "What SOS Can Do",
+  "@whatSOSCanDo": {
+    "description": "Section title for SOS capabilities"
+  },
+  "emergencyCalls": "Emergency Calls",
+  "@emergencyCalls": {
+    "description": "Emergency calls feature title"
+  },
+  "automaticallyCallEmergencyContacts": "Automatically call your emergency contacts",
+  "@automaticallyCallEmergencyContacts": {
+    "description": "Emergency calls feature description"
+  },
+  "locationSMS": "Location SMS",
+  "@locationSMS": {
+    "description": "Location SMS feature title"
+  },
+  "sendExactLocationViaSMS": "Send your exact location via SMS",
+  "@sendExactLocationViaSMS": {
+    "description": "Location SMS feature description"
+  },
+  "accessYourLocation": "Access your location",
+  "@accessYourLocation": {
+    "description": "Location access feature description"
+  },
+  "phonePermissionTitle": "Phone Permission",
+  "@phonePermissionTitle": {
+    "description": "Phone permission dialog title"
+  },
+  "phonePermissionDescription": "Allow the app to make emergency phone calls to your emergency contacts when SOS is triggered.",
+  "@phonePermissionDescription": {
+    "description": "Phone permission dialog description"
+  },
+  "phonePermissionUsage": "Used only during emergency situations to call for help.",
+  "@phonePermissionUsage": {
+    "description": "Phone permission usage explanation"
+  },
+  "smsPermissionTitle": "SMS Permission",
+  "@smsPermissionTitle": {
+    "description": "SMS permission dialog title"
+  },
+  "smsPermissionDescription": "Allow the app to send emergency SMS messages with your location to your emergency contacts.",
+  "@smsPermissionDescription": {
+    "description": "SMS permission dialog description"
+  },
+  "smsPermissionUsage": "Used only during emergencies to send your location and alert message.",
+  "@smsPermissionUsage": {
+    "description": "SMS permission usage explanation"
+  },
+  "locationPermissionTitle": "Location Permission",
+  "@locationPermissionTitle": {
+    "description": "Location permission dialog title"
+  },
+  "locationPermissionDescription": "Allow the app to access your current location to include in emergency messages.",
+  "@locationPermissionDescription": {
+    "description": "Location permission dialog description"
+  },
+  "locationPermissionUsage": "Used only during emergencies to share your location with helpers.",
+  "@locationPermissionUsage": {
+    "description": "Location permission usage explanation"
+  },
+  "contactsPermissionTitle": "Contacts Permission",
+  "@contactsPermissionTitle": {
+    "description": "Contacts permission dialog title"
+  },
+  "contactsPermissionDescription": "Allow the app to access your saved emergency contacts to call them.",
+  "@contactsPermissionDescription": {
+    "description": "Contacts permission dialog description"
+  },
+  "contactsPermissionUsage": "Used only to access your pre-defined emergency contacts.",
+  "@contactsPermissionUsage": {
+    "description": "Contacts permission usage explanation"
+  },
+  "notificationPermissionTitle": "Notification Permission",
+  "@notificationPermissionTitle": {
+    "description": "Notification permission dialog title"
+  },
+  "notificationPermissionDescription": "Allow the app to show critical emergency notifications and SOS status updates.",
+  "@notificationPermissionDescription": {
+    "description": "Notification permission dialog description"
+  },
+  "notificationPermissionUsage": "Used to show emergency alerts and SOS service status.",
+  "@notificationPermissionUsage": {
+    "description": "Notification permission usage explanation"
+  },
+  "grantPermission": "Grant Permission",
+  "@grantPermission": {
+    "description": "Grant permission button text"
+  },
+  "skip": "Skip",
+  "@skip": {
+    "description": "Skip button text"
+  },
+  "usedOnlyDuringEmergencies": "Used only during emergency situations to call for help",
+  "@usedOnlyDuringEmergencies": {
+    "description": "Emergency usage disclaimer"
+  },
+  "permissionRequired": "Permission Required",
+  "@permissionRequired": {
+    "description": "Permission required dialog title"
+  },
+  "permissionRequiredDescription": "This permission is required for SOS emergency functionality.",
+  "@permissionRequiredDescription": {
+    "description": "Default permission required description"
+  },
+  "permissionNeeded": "Permission Needed",
+  "@permissionNeeded": {
+    "description": "Permission needed dialog title"
+  },
+  "isRequiredForSOSFunctionality": "is required for SOS emergency functionality. Without this permission, the SOS feature may not work properly in emergency situations.",
+  "@isRequiredForSOSFunctionality": {
+    "description": "Permission required explanation"
+  },
+  "hasBeenPermanentlyDenied": "has been permanently denied. To enable SOS emergency functionality, please:",
+  "@hasBeenPermanentlyDenied": {
+    "description": "Permanently denied permission message"
+  },
+  "tapOpenSettingsBelow": "1. Tap \"Open Settings\" below",
+  "@tapOpenSettingsBelow": {
+    "description": "Step 1 for enabling permissions"
+  },
+  "findRoadHelperInAppList": "2. Find \"Road Helper\" in the app list",
+  "@findRoadHelperInAppList": {
+    "description": "Step 2 for enabling permissions"
+  },
+  "tapPermissions": "3. Tap \"Permissions\"",
+  "@tapPermissions": {
+    "description": "Step 3 for enabling permissions"
+  },
+  "enableRequiredPermission": "4. Enable the required permission",
+  "@enableRequiredPermission": {
+    "description": "Step 4 for enabling permissions"
+  },
+  "returnToApp": "5. Return to the app",
+  "@returnToApp": {
+    "description": "Step 5 for enabling permissions"
+  },
+  "helpRequestServiceNotAvailable": "Help Requests Service is available for only Google Users",
+  "@helpRequestServiceNotAvailable": {
+    "description": "Message shown to traditional users about help request service limitation"
+  },
+  "accessibilityInstructions": "To enable SOS Emergency Service for power button detection:\n\n1. Tap \"Open Settings\" below\n2. Go to Android Settings → Accessibility\n3. Look for \"Installed Apps\" or \"Downloaded Apps\" section\n4. Find and select \"Road Helper\"\n5. Toggle the service ON\n6. Tap \"Allow\" in the popup dialog\n\nThis allows the app to detect triple power button presses for emergency alerts.",
+  "@accessibilityInstructions": {
+    "description": "Detailed instructions for enabling accessibility service"
+  },
+  "accessibilityServiceRequired": "This service is required for the SOS emergency feature to detect triple power button presses.",
+  "@accessibilityServiceRequired": {
+    "description": "Explanation of why accessibility service is needed"
+  },
+  "lookForRoadHelperInAccessibility": "Look for \"Road Helper\" in the accessibility services list and enable it.",
+  "@lookForRoadHelperInAccessibility": {
+    "description": "Instruction to find Road Helper in accessibility settings"
+  },
+  "followTheseSteps": "Follow these steps:",
+  "@followTheseSteps": {
+    "description": "Header for step-by-step instructions"
+  },
+  "androidSettingsAccessibility": "Go to Android Settings → Accessibility",
+  "@androidSettingsAccessibility": {
+    "description": "Step 1 of accessibility setup"
+  },
+  "findInstalledAppsSection": "Find \"Installed Apps\" section",
+  "@findInstalledAppsSection": {
+    "description": "Step 2 of accessibility setup"
+  },
+  "selectRoadHelper": "Select \"Road Helper\"",
+  "@selectRoadHelper": {
+    "description": "Step 3 of accessibility setup"
+  },
+  "toggleServiceOn": "Toggle the service ON",
+  "@toggleServiceOn": {
+    "description": "Step 4 of accessibility setup"
+  },
+  "dismiss": "Dismiss",
+  "@dismiss": {
+    "description": "Button text to dismiss dialog"
+  },
+  "openSettings": "Open Settings",
+  "@openSettings": {
+    "description": "Button text to open accessibility settings"
+  },
+  "afterEnablingServiceReturn": "After enabling the service, return to the app",
+  "@afterEnablingServiceReturn": {
+    "description": "Snackbar message after opening settings"
+  },
+
+  "middleName": "Middle Name",
+  "@middleName": {
+    "description": "Middle name field label"
+  },
+  "age": "Age",
+  "@age": {
+    "description": "Age field label"
+  },
+  "emergencyContactsEnterAtLeastOne": "Emergency Contacts (Enter at least one)",
+  "@emergencyContactsEnterAtLeastOne": {
+    "description": "Emergency contacts section title"
+  },
+  "emergencyContact1": "Emergency Contact 1",
+  "@emergencyContact1": {
+    "description": "First emergency contact field label"
+  },
+  "emergencyContact2": "Emergency Contact 2",
+  "@emergencyContact2": {
+    "description": "Second emergency contact field label"
+  },
+  "emergencyContact3": "Emergency Contact 3",
+  "@emergencyContact3": {
+    "description": "Third emergency contact field label"
+  },
+  "saveEmergencyInformation": "Save Emergency Information",
+  "@saveEmergencyInformation": {
+    "description": "Button text to save emergency information"
+  },
+  "sosSettings": "SOS Settings",
+  "@sosSettings": {
+    "description": "SOS settings screen title"
+  },
+  "enableDisableEmergencyFunction": "Enable/Disable Emergency Function",
+  "@enableDisableEmergencyFunction": {
+    "description": "Toggle description for emergency function"
+  },
+  "enablePowerButtonTrigger": "Enable Power Button Trigger",
+  "@enablePowerButtonTrigger": {
+    "description": "Toggle description for power button trigger"
+  },
+  "pressPowerButtonThreeTimesToSendSOS": "Press power button three times to send SOS",
+  "@pressPowerButtonThreeTimesToSendSOS": {
+    "description": "Description for power button SOS trigger"
+  },
+  "accessibilityServiceNotEnabledMessage": "Accessibility service is not enabled to use SOS power button trigger",
+  "@accessibilityServiceNotEnabledMessage": {
+    "description": "Message when accessibility service is not enabled"
+  },
+  "followStepsToEnable": "Follow these steps:",
+  "@followStepsToEnable": {
+    "description": "Header for enabling accessibility service steps"
+  },
+  "goToAndroidSettingsAccessibility": "Go to Android Settings → Accessibility",
+  "@goToAndroidSettingsAccessibility": {
+    "description": "Step to go to accessibility settings"
+  },
+  "lookForInstalledAppsSection": "Look for \"Installed Apps\" section",
+  "@lookForInstalledAppsSection": {
+    "description": "Step to find installed apps section"
+  },
+  "findRoadHelperAndSelect": "Find and select \"Road Helper\"",
+  "@findRoadHelperAndSelect": {
+    "description": "Step to select Road Helper app"
+  },
+  "enableService": "Enable the service",
+  "@enableService": {
+    "description": "Step to enable the service"
+  },
+  "checkStatus": "Check Status",
+  "@checkStatus": {
+    "description": "Button text to check accessibility service status"
+  },
+  "manageEmergencyContactsButton": "Manage Emergency Contacts",
+  "@manageEmergencyContactsButton": {
+    "description": "Button text to manage emergency contacts"
+  },
+  "personalProfile": "Personal Profile",
+  "@personalProfile": {
+    "description": "Personal profile section title"
+  },
+  "editPersonalProfile": "Edit Personal Profile",
+  "@editPersonalProfile": {
+    "description": "Edit personal profile menu item"
+  },
+  "nightMode": "Night Mode",
+  "@nightMode": {
+    "description": "Night mode toggle label"
+  },
+  "middleNameField": "Middle Name",
+  "@middleNameField": {
+    "description": "Middle name field label"
+  },
+  "ageField": "Age",
+  "@ageField": {
+    "description": "Age field label"
+  },
+  "emergencyContact1Field": "Emergency Contact 1",
+  "@emergencyContact1Field": {
+    "description": "First emergency contact field label"
+  },
+  "emergencyContact2Field": "Emergency Contact 2",
+  "@emergencyContact2Field": {
+    "description": "Second emergency contact field label"
+  },
+  "emergencyContact3Field": "Emergency Contact 3",
+  "@emergencyContact3Field": {
+    "description": "Third emergency contact field label"
+  },
+  "saveEmergencyInformationButton": "Save Emergency Information",
+  "@saveEmergencyInformationButton": {
+    "description": "Button text to save emergency information"
+  },
+  "clearSavedDataButton": "Clear Saved Data",
+  "@clearSavedDataButton": {
+    "description": "Button text to clear saved data"
+  },
+  "pleaseEnterMiddleName": "Please enter your middle name",
+  "@pleaseEnterMiddleName": {
+    "description": "Validation message for middle name"
+  },
+  "middleNameLettersOnly": "Middle name should contain only letters",
+  "@middleNameLettersOnly": {
+    "description": "Validation message for middle name format"
+  },
+  "middleNameMinLength": "Middle name should be at least 3 characters",
+  "@middleNameMinLength": {
+    "description": "Validation message for middle name minimum length"
+  },
+  "middleNameMaxLength": "Middle name should not exceed 13 characters",
+  "@middleNameMaxLength": {
+    "description": "Validation message for middle name maximum length"
+  },
+  "pleaseEnterAge": "Please enter your age",
+  "@pleaseEnterAge": {
+    "description": "Validation message for age"
+  },
+  "pleaseEnterValidAge": "Please enter a valid age",
+  "@pleaseEnterValidAge": {
+    "description": "Validation message for valid age"
+  },
+  "ageMustBeAtLeast18": "Age must be at least 18 years old",
+  "@ageMustBeAtLeast18": {
+    "description": "Validation message for minimum age"
+  },
+  "ageMustBeLessThan100": "Age must be less than 100 years old",
+  "@ageMustBeLessThan100": {
+    "description": "Validation message for maximum age"
+  },
+  "enterPhoneNumber": "Enter phone number",
+  "@enterPhoneNumber": {
+    "description": "Hint text for phone number field"
+  },
+  "pleaseEnterAtLeastOneEmergencyContact": "Please enter at least one emergency contact",
+  "@pleaseEnterAtLeastOneEmergencyContact": {
+    "description": "Validation message for emergency contacts"
+  },
+  "phoneNumberMustBe11Digits": "Phone number must be exactly 11 digits",
+  "@phoneNumberMustBe11Digits": {
+    "description": "Validation message for phone number length"
+  },
+  "phoneNumberMustStartWith": "Phone number must start with 010, 011, 012, or 015",
+  "@phoneNumberMustStartWith": {
+    "description": "Validation message for phone number prefix"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+  "clear": "Clear",
+  "@clear": {
+    "description": "Clear button text"
+  },
+  "emergencyContactMustBe11Digits": "Emergency Contact {contactNumber} must be exactly 11 digits",
+  "@emergencyContactMustBe11Digits": {
+    "description": "Validation message for emergency contact length",
+    "placeholders": {
+      "contactNumber": {
+        "type": "int",
+        "description": "Contact number (1, 2, or 3)"
+      }
+    }
+  },
+  "emergencyContactMustStartWith": "Emergency Contact {contactNumber} must start with 010, 011, 012, or 015",
+  "@emergencyContactMustStartWith": {
+    "description": "Validation message for emergency contact prefix",
+    "placeholders": {
+      "contactNumber": {
+        "type": "int",
+        "description": "Contact number (1, 2, or 3)"
+      }
+    }
+  },
+  "emergencyContactsMustBeDifferent": "Emergency contacts must be different from each other",
+  "@emergencyContactsMustBeDifferent": {
+    "description": "Validation message for duplicate emergency contacts"
+  },
+  "emergencyContactDataCleared": "Emergency contact data cleared successfully",
+  "@emergencyContactDataCleared": {
+    "description": "Success message when emergency data is cleared"
+  },
+  "errorClearingData": "Error clearing data: {error}",
+  "@errorClearingData": {
+    "description": "Error message when clearing data fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "description": "Error details"
+      }
+    }
+  },
+  "emergencyInformationSavedSuccessfully": "Emergency contact information saved successfully!\nYour data will be preserved for SOS alerts.",
+  "@emergencyInformationSavedSuccessfully": {
+    "description": "Success message when emergency information is saved"
+  },
+  "errorSavingData": "Error saving data: {error}",
+  "@errorSavingData": {
+    "description": "Error message when saving data fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "description": "Error details"
+      }
+    }
+  },
+  "pleaseEnterLastName": "Please enter your last name",
+  "@pleaseEnterLastName": {
+    "description": "Validation message for empty last name field"
+  },
+  "lastNameLettersOnly": "Last name should contain only letters",
+  "@lastNameLettersOnly": {
+    "description": "Validation message for last name format"
+  },
+  "lastNameMinLength": "Last name should be at least 3 characters",
+  "@lastNameMinLength": {
+    "description": "Validation message for last name minimum length"
+  },
+  "lastNameMaxLength": "Last name should not exceed 13 characters",
+  "@lastNameMaxLength": {
+    "description": "Validation message for last name maximum length"
+  },
+  "checkStatusButton": "Check Status",
+  "@checkStatusButton": {
+    "description": "Button text to check accessibility service status"
+  },
+  "openSettingsButton": "Open Settings",
+  "@openSettingsButton": {
+    "description": "Button text to open accessibility settings"
+  },
+  "afterEnablingServiceReturnToApp": "After enabling the service, return to the app and check status",
+  "@afterEnablingServiceReturnToApp": {
+    "description": "Instruction message after opening accessibility settings"
+  },
+  "locationTracking": "Location Tracking",
+  "@locationTracking": {
+    "description": "Location tracking toggle label"
+  },
+  "locationTrackingEnabled": "Location tracking enabled. You are now visible to other users.",
+  "@locationTrackingEnabled": {
+    "description": "Success message when location tracking is enabled"
+  },
+  "locationTrackingDisabled": "Location tracking disabled. You are now hidden from other users.",
+  "@locationTrackingDisabled": {
+    "description": "Success message when location tracking is disabled"
+  },
+  "errorUpdatingLocationTracking": "Error updating location tracking: {error}",
+  "@errorUpdatingLocationTracking": {
+    "description": "Error message when location tracking update fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "description": "Error details"
+      }
+    }
+  },
+  "faq": "FAQ",
+  "@faq": {
+    "description": "Frequently Asked Questions menu item"
+  },
+  "frequentlyAskedQuestions": "Frequently Asked Questions",
+  "@frequentlyAskedQuestions": {
+    "description": "FAQ screen title"
+  },
+  "faqAuthenticationTitle": "Authentication & Account Management",
+  "@faqAuthenticationTitle": {
+    "description": "FAQ section title for authentication"
+  },
+  "faqTraditionalVsGoogleTitle": "What's the difference between traditional login and Google Sign-In?",
+  "@faqTraditionalVsGoogleTitle": {
+    "description": "FAQ question about login methods"
+  },
+  "faqTraditionalVsGoogleAnswer": "Traditional login uses email/password with OTP verification for new users. Google Sign-In provides instant access with your Google account and includes additional features like real-time location tracking, help requests, and license upload during signup. Google users can see each other on the map and have access to the full help request system.",
+  "@faqTraditionalVsGoogleAnswer": {
+    "description": "FAQ answer about login methods"
+  },
+  "faqOtpProcessTitle": "How does the OTP verification process work?",
+  "@faqOtpProcessTitle": {
+    "description": "FAQ question about OTP process"
+  },
+  "faqOtpProcessAnswer": "For new traditional users, after entering your email and password, you'll receive a 6-digit verification code via email. Enter this code within the time limit to complete registration. If the code expires, you can request a new one.",
+  "@faqOtpProcessAnswer": {
+    "description": "FAQ answer about OTP process"
+  },
+  "faqSessionManagementTitle": "How does session management work?",
+  "@faqSessionManagementTitle": {
+    "description": "FAQ question about session management"
+  },
+  "faqSessionManagementAnswer": "The app saves your login token to keep you signed in. When you logout, all session data is cleared. For SOS emergency functionality, the app maintains persistent login to ensure emergency services remain available even if your session expires.",
+  "@faqSessionManagementAnswer": {
+    "description": "FAQ answer about session management"
+  },
+  "faqProfileManagementTitle": "Profile & Vehicle Management",
+  "@faqProfileManagementTitle": {
+    "description": "FAQ section title for profile management"
+  },
+  "faqEditProfileTitle": "How do I edit my profile information?",
+  "@faqEditProfileTitle": {
+    "description": "FAQ question about editing profile"
+  },
+  "faqEditProfileAnswer": "Go to Profile screen and tap 'Edit Profile'. You can update your name, phone number, car details (model, color, plate number), and profile image. Changes are saved automatically and cached for offline access.",
+  "@faqEditProfileAnswer": {
+    "description": "FAQ answer about editing profile"
+  },
+  "faqLicenseUploadTitle": "How do I upload my driver's license?",
+  "@faqLicenseUploadTitle": {
+    "description": "FAQ question about license upload"
+  },
+  "faqLicenseUploadAnswer": "License upload is integrated with Google signup flow. During Google registration, you'll be prompted to capture both front and back images of your driver's license. This is required for Google users and happens automatically as part of the registration process.",
+  "@faqLicenseUploadAnswer": {
+    "description": "FAQ answer about license upload"
+  },
+  "faqProfileImageTitle": "What are the profile image specifications?",
+  "@faqProfileImageTitle": {
+    "description": "FAQ question about profile image specs"
+  },
+  "faqProfileImageAnswer": "Profile images should be square-shaped and match the profile container dimensions. Images are uploaded directly to the server and bypass local caching for real-time updates. You can change your profile image anytime from the Edit Profile screen.",
+  "@faqProfileImageAnswer": {
+    "description": "FAQ answer about profile image specs"
+  },
+  "faqEmergencyFeaturesTitle": "Emergency Features",
+  "@faqEmergencyFeaturesTitle": {
+    "description": "FAQ section title for emergency features"
+  },
+  "faqSosFunctionalityTitle": "How does the SOS emergency feature work?",
+  "@faqSosFunctionalityTitle": {
+    "description": "FAQ question about SOS functionality"
+  },
+  "faqSosFunctionalityAnswer": "SOS can be triggered by pressing the power button 3 times quickly within 2 seconds. It automatically sends SMS messages with your location, battery level, and emergency details to your saved emergency contacts. The feature works offline and is available to both authentication types.",
+  "@faqSosFunctionalityAnswer": {
+    "description": "FAQ answer about SOS functionality"
+  },
+  "faqAccessibilityServiceTitle": "How do I enable the accessibility service for SOS?",
+  "@faqAccessibilityServiceTitle": {
+    "description": "FAQ question about accessibility service"
+  },
+  "faqAccessibilityServiceAnswer": "Go to Android Settings > Accessibility > Installed Apps > Road Helper > Enable the service. This enhances power button detection for more reliable SOS triggering. You'll see step-by-step instructions when the service is disabled.",
+  "@faqAccessibilityServiceAnswer": {
+    "description": "FAQ answer about accessibility service"
+  },
+  "faqEmergencyContactsTitle": "How do I manage emergency contacts?",
+  "@faqEmergencyContactsTitle": {
+    "description": "FAQ question about emergency contacts"
+  },
+  "faqEmergencyContactsAnswer": "Go to Profile > Emergency Contacts to add your personal information and emergency contact details. Data is saved to Firebase and automatically retrieved on login regardless of authentication method. You need at least one emergency contact for SOS to work.",
+  "@faqEmergencyContactsAnswer": {
+    "description": "FAQ answer about emergency contacts"
+  },
+  "faqHelpRequestsTitle": "Help Requests",
+  "@faqHelpRequestsTitle": {
+    "description": "FAQ section title for help requests"
+  },
+  "faqHelpRequestSystemTitle": "How does the help request system work?",
+  "@faqHelpRequestSystemTitle": {
+    "description": "FAQ question about help request system"
+  },
+  "faqHelpRequestSystemAnswer": "Help requests are exclusively available to Google-authenticated users only. You can request help from nearby Google users on the map. When help is accepted, complete contact details (name, phone, car details, distance) are displayed to both parties.",
+  "@faqHelpRequestSystemAnswer": {
+    "description": "FAQ answer about help request system"
+  },
+  "faqHelpRequestFlowTitle": "What happens when I send or receive a help request?",
+  "@faqHelpRequestFlowTitle": {
+    "description": "FAQ question about help request flow"
+  },
+  "faqHelpRequestFlowAnswer": "When you send a help request, nearby Google users receive a notification. If someone accepts, you both get each other's contact information and location. The system uses FCM push notifications to ensure real-time delivery between Google users.",
+  "@faqHelpRequestFlowAnswer": {
+    "description": "FAQ answer about help request flow"
+  },
+  "faqMapLocationTitle": "Map & Location Features",
+  "@faqMapLocationTitle": {
+    "description": "FAQ section title for map and location"
+  },
+  "faqLocationTrackingTitle": "How does real-time location tracking work?",
+  "@faqLocationTrackingTitle": {
+    "description": "FAQ question about location tracking"
+  },
+  "faqLocationTrackingAnswer": "Real-time location tracking is available only for Google-authenticated users. Your location is updated automatically and shared with other Google users on the map. You can toggle this feature on/off in your profile settings.",
+  "@faqLocationTrackingAnswer": {
+    "description": "FAQ answer about location tracking"
+  },
+  "faqNearbyServicesTitle": "How do I find nearby services on the map?",
+  "@faqNearbyServicesTitle": {
+    "description": "FAQ question about nearby services"
+  },
+  "faqNearbyServicesAnswer": "The map shows nearby gas stations, hospitals, police stations, fire departments, maintenance centers, and winch services. You can filter by service type and get directions to the nearest location using Google Maps integration.",
+  "@faqNearbyServicesAnswer": {
+    "description": "FAQ answer about nearby services"
+  },
+  "faqUserVisibilityTitle": "How do I control my visibility to other users?",
+  "@faqUserVisibilityTitle": {
+    "description": "FAQ question about user visibility"
+  },
+  "faqUserVisibilityAnswer": "Google users can toggle location tracking and user visibility in Profile settings. There's also a tracking disable toggle that prevents you from appearing as active or trackable to other users while maintaining your own access to the app.",
+  "@faqUserVisibilityAnswer": {
+    "description": "FAQ answer about user visibility"
+  },
+  "faqNotificationsTitle": "Notifications",
+  "@faqNotificationsTitle": {
+    "description": "FAQ section title for notifications"
+  },
+  "faqPushNotificationsTitle": "How do push notifications work?",
+  "@faqPushNotificationsTitle": {
+    "description": "FAQ question about push notifications"
+  },
+  "faqPushNotificationsAnswer": "The app uses FCM (Firebase Cloud Messaging) for all notifications including help requests, chat messages, and map features. Notifications work for both authentication types and are displayed in the notifications page within the app.",
+  "@faqPushNotificationsAnswer": {
+    "description": "FAQ answer about push notifications"
+  },
+  "faqNotificationTypesTitle": "What types of notifications will I receive?",
+  "@faqNotificationTypesTitle": {
+    "description": "FAQ question about notification types"
+  },
+  "faqNotificationTypesAnswer": "You'll receive notifications for help requests (Google users), chat messages, emergency alerts, and map-related updates. All notifications appear in the in-app notifications page and as push notifications on your device.",
+  "@faqNotificationTypesAnswer": {
+    "description": "FAQ answer about notification types"
+  },
+  "faqAiAssistantTitle": "AI Assistant",
+  "@faqAiAssistantTitle": {
+    "description": "FAQ section title for AI assistant"
+  },
+  "faqChatbotTitle": "How do I interact with the AI chatbot?",
+  "@faqChatbotTitle": {
+    "description": "FAQ question about chatbot"
+  },
+  "faqChatbotAnswer": "Access the AI assistant from the bottom navigation. You can ask questions about car problems, road assistance, or general help. The AI can analyze images you upload and provide relevant advice based on your car details and location.",
+  "@faqChatbotAnswer": {
+    "description": "FAQ answer about chatbot"
+  },
+  "faqImageAnalysisTitle": "Can the AI analyze images?",
+  "@faqImageAnalysisTitle": {
+    "description": "FAQ question about image analysis"
+  },
+  "faqImageAnalysisAnswer": "Yes, you can upload images to the AI assistant for analysis. The AI can identify car problems, damage, or other issues from photos and provide relevant advice or recommendations based on what it sees.",
+  "@faqImageAnalysisAnswer": {
+    "description": "FAQ answer about image analysis"
+  },
+  "faqSystemFeaturesTitle": "System Features",
+  "@faqSystemFeaturesTitle": {
+    "description": "FAQ section title for system features"
+  },
+  "faqAppVersionTitle": "How do I check the app version?",
+  "@faqAppVersionTitle": {
+    "description": "FAQ question about app version"
+  },
+  "faqAppVersionAnswer": "The current app version is displayed on the About page, starting from version 1.0.6. The version automatically increments with new releases and updates.",
+  "@faqAppVersionAnswer": {
+    "description": "FAQ answer about app version"
+  },
+  "faqDataPersistenceTitle": "How does data caching and persistence work?",
+  "@faqDataPersistenceTitle": {
+    "description": "FAQ question about data persistence"
+  },
+  "faqDataPersistenceAnswer": "The app saves your data locally to work offline and keep services running smoothly. Profile data, emergency contacts, and settings persist until you explicitly modify them. Login tokens are saved to maintain continuous access for emergency features.",
+  "@faqDataPersistenceAnswer": {
+    "description": "FAQ answer about data persistence"
+  },
+  "faqLanguageSwitchingTitle": "How do I change the app language?",
+  "@faqLanguageSwitchingTitle": {
+    "description": "FAQ question about language switching"
+  },
+  "faqLanguageSwitchingAnswer": "Go to Profile settings and select your preferred language (English or Arabic). The app supports RTL layout for Arabic and uses specific Arabic fonts (Tajawal, Cairo Bold, Changa, Almarai) while English uses system fonts.",
+  "@faqLanguageSwitchingAnswer": {
+    "description": "FAQ answer about language switching"
+  },
+  "faqDarkModeTitle": "How do I enable dark mode?",
+  "@faqDarkModeTitle": {
+    "description": "FAQ question about dark mode"
+  },
+  "faqDarkModeAnswer": "Toggle dark mode on/off in Profile settings. Dark mode changes the app's color scheme to be easier on your eyes in low-light conditions while maintaining all functionality.",
+  "@faqDarkModeAnswer": {
+    "description": "FAQ answer about dark mode"
+  },
+  "privacyPolicy": "Privacy Policy",
+  "@privacyPolicy": {
+    "description": "Privacy Policy screen title"
+  },
+  "privacyPolicyTitle": "Privacy Policy",
+  "@privacyPolicyTitle": {
+    "description": "Privacy Policy navigation item"
+  },
+  "privacyLastUpdated": "Last Updated: May 2025",
+  "@privacyLastUpdated": {
+    "description": "Privacy policy last updated date"
+  },
+  "privacyIntroduction": "Road Helper is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, store, and protect your data when you use our mobile application.",
+  "@privacyIntroduction": {
+    "description": "Privacy policy introduction"
+  },
+  "privacyDataCollectionTitle": "1. Data Collection",
+  "@privacyDataCollectionTitle": {
+    "description": "Privacy section title for data collection"
+  },
+  "privacyPersonalInfoTitle": "Personal Information",
+  "@privacyPersonalInfoTitle": {
+    "description": "Privacy subsection title for personal info"
+  },
+  "privacyPersonalInfoContent": "We collect the following personal information:\n• Name and email address (required for account creation)\n• Phone number (optional, for profile completion)\n• Vehicle information (car model, color, plate number)\n• Driver's license images (front and back)\n• Profile images (optional, uploaded by user choice)",
+  "@privacyPersonalInfoContent": {
+    "description": "Privacy content for personal information collection"
+  },
+  "privacyLocationDataTitle": "Location Data",
+  "@privacyLocationDataTitle": {
+    "description": "Privacy subsection title for location data"
+  },
+  "privacyLocationDataContent": "Location data collection varies by authentication method:\n• Google Sign-In users: Real-time location tracking for map features and help requests (can be disabled in settings)\n• Traditional users: Location access only when using map features\n• Emergency services: GPS coordinates are included in SOS messages for safety purposes\n• All location data is processed locally and shared only with your explicit consent",
+  "@privacyLocationDataContent": {
+    "description": "Privacy content for location data collection"
+  },
+  "privacyEmergencyContactsTitle": "Emergency Contacts",
+  "@privacyEmergencyContactsTitle": {
+    "description": "Privacy subsection title for emergency contacts"
+  },
+  "privacyEmergencyContactsContent": "Emergency contact information is stored securely for SOS functionality:\n• Names, phone numbers, and relationship details\n• Stored locally on your device and backed up to Firebase\n• Used exclusively for emergency SMS alerts\n• Never shared with third parties or used for marketing",
+  "@privacyEmergencyContactsContent": {
+    "description": "Privacy content for emergency contacts"
+  },
+  "privacyDataStorageTitle": "2. Data Storage & Security",
+  "@privacyDataStorageTitle": {
+    "description": "Privacy section title for data storage"
+  },
+  "privacyLocalStorageTitle": "Local Storage",
+  "@privacyLocalStorageTitle": {
+    "description": "Privacy subsection title for local storage"
+  },
+  "privacyLocalStorageContent": "Your data is stored locally on your device using:\n• SharedPreferences for user preferences and session data\n• Local caching for profile information and images\n• Encrypted storage for sensitive authentication tokens\n• Data persists until you explicitly log out or clear app data",
+  "@privacyLocalStorageContent": {
+    "description": "Privacy content for local storage"
+  },
+  "privacyCloudStorageTitle": "Cloud Storage",
+  "@privacyCloudStorageTitle": {
+    "description": "Privacy subsection title for cloud storage"
+  },
+  "privacyCloudStorageContent": "We use secure cloud services for data backup and synchronization:\n• Firebase Realtime Database for user profiles and help requests\n• Firebase Authentication for secure login management\n• Backend API (http://81.10.91.96:8132) for profile data and image storage\n• All data transmission is encrypted using HTTPS/TLS protocols",
+  "@privacyCloudStorageContent": {
+    "description": "Privacy content for cloud storage"
+  },
+  "privacyThirdPartyTitle": "3. Third-Party Services",
+  "@privacyThirdPartyTitle": {
+    "description": "Privacy section title for third-party services"
+  },
+  "privacyGoogleServicesTitle": "Google Services",
+  "@privacyGoogleServicesTitle": {
+    "description": "Privacy subsection title for Google services"
+  },
+  "privacyGoogleServicesContent": "We integrate with Google services for enhanced functionality:\n• Google Sign-In for authentication (optional)\n• Google Maps for location services and navigation\n• Google Places API for nearby service discovery\n• Firebase services for real-time features and notifications\n• Data shared with Google is governed by Google's Privacy Policy",
+  "@privacyGoogleServicesContent": {
+    "description": "Privacy content for Google services"
+  },
+  "privacyNotificationServicesTitle": "Notification Services",
+  "@privacyNotificationServicesTitle": {
+    "description": "Privacy subsection title for notification services"
+  },
+  "privacyNotificationServicesContent": "We use Firebase Cloud Messaging (FCM) for push notifications:\n• Device tokens are stored securely for message delivery\n• Notifications include help requests, chat messages, and app updates\n• You can disable notifications in your device settings\n• No personal content is stored on Google's servers",
+  "@privacyNotificationServicesContent": {
+    "description": "Privacy content for notification services"
+  },
+  "privacySmsServicesTitle": "SMS Services",
+  "@privacySmsServicesTitle": {
+    "description": "Privacy subsection title for SMS services"
+  },
+  "privacySmsServicesContent": "Emergency SOS feature uses device SMS capabilities:\n• SMS messages are sent directly from your device\n• No SMS content is stored on our servers\n• Emergency messages include your location and battery status\n• SMS functionality requires device permissions for emergency use only",
+  "@privacySmsServicesContent": {
+    "description": "Privacy content for SMS services"
+  },
+  "privacyDataUsageTitle": "4. How We Use Your Data",
+  "@privacyDataUsageTitle": {
+    "description": "Privacy section title for data usage"
+  },
+  "privacyDataUsageContent": "Your data is used exclusively for app functionality:\n• Account management and authentication\n• Profile customization and vehicle information display\n• Location-based services and navigation\n• Help request system (Google users only)\n• Emergency SOS alerts and safety features\n• App personalization and preference storage\n• Technical support and troubleshooting\n\nWe never use your data for advertising, marketing to third parties, or any purpose not directly related to app functionality.",
+  "@privacyDataUsageContent": {
+    "description": "Privacy content for data usage"
+  },
+  "privacyUserRightsTitle": "5. Your Rights & Controls",
+  "@privacyUserRightsTitle": {
+    "description": "Privacy section title for user rights"
+  },
+  "privacyDataControlTitle": "Data Control Options",
+  "@privacyDataControlTitle": {
+    "description": "Privacy subsection title for data control"
+  },
+  "privacyDataControlContent": "You have full control over your data:\n• Edit or update profile information anytime\n• Enable/disable location tracking (Google users)\n• Control visibility to other users\n• Clear chat history and cached data\n• Export emergency contact settings\n• Delete account and all associated data",
+  "@privacyDataControlContent": {
+    "description": "Privacy content for data control"
+  },
+  "privacyAccessRightsTitle": "Access & Deletion Rights",
+  "@privacyAccessRightsTitle": {
+    "description": "Privacy subsection title for access rights"
+  },
+  "privacyAccessRightsContent": "You can request:\n• Access to all data we have about you\n• Correction of inaccurate information\n• Deletion of your account and all data\n• Data portability (export your information)\n• Restriction of data processing\n\nTo exercise these rights, contact us at roadhelper200@gmail.com",
+  "@privacyAccessRightsContent": {
+    "description": "Privacy content for access rights"
+  },
+  "privacyAuthMethodsTitle": "6. Authentication Methods",
+  "@privacyAuthMethodsTitle": {
+    "description": "Privacy section title for authentication methods"
+  },
+  "privacyTraditionalAuthTitle": "Traditional Authentication",
+  "@privacyTraditionalAuthTitle": {
+    "description": "Privacy subsection title for traditional auth"
+  },
+  "privacyTraditionalAuthContent": "Email/password authentication with OTP verification:\n• Email and encrypted password stored securely\n• OTP codes sent via email for verification\n• Session tokens for secure app access\n• Limited to basic app features and emergency services",
+  "@privacyTraditionalAuthContent": {
+    "description": "Privacy content for traditional authentication"
+  },
+  "privacyGoogleAuthTitle": "Google Sign-In Authentication",
+  "@privacyGoogleAuthTitle": {
+    "description": "Privacy subsection title for Google auth"
+  },
+  "privacyGoogleAuthContent": "Enhanced features with Google account integration:\n• Google account information (name, email, profile picture)\n• Access to additional features (help requests, real-time tracking)\n• License verification during signup\n• Seamless integration with Google services\n• Data governed by both our policy and Google's Privacy Policy",
+  "@privacyGoogleAuthContent": {
+    "description": "Privacy content for Google authentication"
+  },
+  "privacyDataRetentionTitle": "7. Data Retention",
+  "@privacyDataRetentionTitle": {
+    "description": "Privacy section title for data retention"
+  },
+  "privacyRetentionPolicyTitle": "Retention Policy",
+  "@privacyRetentionPolicyTitle": {
+    "description": "Privacy subsection title for retention policy"
+  },
+  "privacyRetentionPolicyContent": "We retain your data as follows:\n• Active account data: Retained while your account is active\n• Cached data: Automatically cleared when you log out\n• Emergency contacts: Retained until manually deleted\n• Chat history: Can be cleared by user anytime\n• Location data: Not permanently stored, used only for real-time features\n• Deleted accounts: All data permanently removed within 30 days",
+  "@privacyRetentionPolicyContent": {
+    "description": "Privacy content for retention policy"
+  },
+  "privacySecurityMeasuresTitle": "8. Security Measures",
+  "@privacySecurityMeasuresTitle": {
+    "description": "Privacy section title for security measures"
+  },
+  "privacySecurityContent": "We implement multiple security layers:\n• End-to-end encryption for data transmission\n• Secure token-based authentication\n• Local data encryption on your device\n• Regular security updates and patches\n• Firebase security rules for database access\n• No storage of sensitive data on external servers\n• Emergency data processed locally for maximum security",
+  "@privacySecurityContent": {
+    "description": "Privacy content for security measures"
+  },
+  "privacyChildrenTitle": "9. Children's Privacy",
+  "@privacyChildrenTitle": {
+    "description": "Privacy section title for children's privacy"
+  },
+  "privacyChildrenContent": "Road Helper is intended for users 18 years and older. We do not knowingly collect personal information from children under 18. If you believe a child has provided us with personal information, please contact us immediately at roadhelper200@gmail.com and we will delete such information.",
+  "@privacyChildrenContent": {
+    "description": "Privacy content for children's privacy"
+  },
+  "privacyChangesTitle": "10. Policy Changes",
+  "@privacyChangesTitle": {
+    "description": "Privacy section title for policy changes"
+  },
+  "privacyChangesContent": "We may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. When we make significant changes:\n• We will notify users through the app\n• The updated policy will be posted with a new 'Last Updated' date\n• Continued use of the app constitutes acceptance of the updated policy\n• Major changes will require explicit user consent",
+  "@privacyChangesContent": {
+    "description": "Privacy content for policy changes"
+  },
+  "privacyContactTitle": "11. Contact Information",
+  "@privacyContactTitle": {
+    "description": "Privacy section title for contact information"
+  },
+  "privacyContactContent": "For privacy-related questions, concerns, or requests:\n\nEmail: roadhelper200@gmail.com\nSubject: Privacy Policy Inquiry\n\nWe will respond to privacy inquiries within 48 hours and data requests within 30 days as required by applicable privacy laws.",
+  "@privacyContactContent": {
+    "description": "Privacy content for contact information"
+  },
+  "privacyConsentTitle": "12. Consent",
+  "@privacyConsentTitle": {
+    "description": "Privacy section title for consent"
+  },
+  "privacyConsentContent": "By using Road Helper, you consent to:\n• Collection and use of your information as described in this policy\n• Processing of your data for app functionality and safety features\n• Storage of emergency contact information for SOS services\n• Use of location services for navigation and help requests (when enabled)\n\nYou can withdraw consent at any time by deleting your account or contacting us.",
+  "@privacyConsentContent": {
+    "description": "Privacy content for consent"
+  }
+}
