@@ -2,26 +2,77 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<!-- Location Permissions for SOS Emergency Services -->
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>نحتاج إلى الوصول إلى موقعك لإرسال إحداثيات الطوارئ.</string>
+	<string>Road Helper needs location access to send your coordinates during emergency situations and provide location-based services.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Road Helper needs continuous location access to provide emergency services and track your location for safety purposes.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>نحتاج إلى الوصول إلى موقعك لإرسال إحداثيات الطوارئ.</string>
-	<key>NSContactsUsageDescription</key>
-	<string>نحتاج إلى الوصول إلى جهات الاتصال لإرسال رسائل الطوارئ.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We need your location to provide better services.</string>
-	<key>NSLocationAlwaysUsageDescription</key>	
-	<string>We need your location to provide better services.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>We need access to your photo library to upload images.</string>
+	<string>Road Helper needs background location access to provide emergency services and safety features even when the app is not active.</string>
+
+	<!-- Camera and Photo Library Permissions -->
 	<key>NSCameraUsageDescription</key>
-	<string>We need access to your camera to take photos.</string>
+	<string>Road Helper needs camera access to take photos for profile pictures, incident reports, and emergency documentation.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Road Helper needs photo library access to select and upload images for profile pictures and incident reports.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Road Helper needs permission to save photos to your photo library for emergency documentation.</string>
+
+	<!-- Microphone Permission -->
 	<key>NSMicrophoneUsageDescription</key>
-	<string>We need access to your microphone for video recording.</string>
+	<string>Road Helper needs microphone access for video recording and voice messages during emergency situations.</string>
+
+	<!-- Contacts Permission for Emergency Contacts -->
+	<key>NSContactsUsageDescription</key>
+	<string>Road Helper needs access to your contacts to select emergency contacts for SOS alerts and help requests.</string>
+
+	<!-- Background App Refresh for Emergency Services -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>background-fetch</string>
+		<string>background-processing</string>
+		<string>location</string>
+		<string>remote-notification</string>
+		<string>voip</string>
+	</array>
+
+	<!-- Push Notifications -->
+	<key>UIUserNotificationSettings</key>
+	<dict>
+		<key>UIUserNotificationTypeAlert</key>
+		<true/>
+		<key>UIUserNotificationTypeBadge</key>
+		<true/>
+		<key>UIUserNotificationTypeSound</key>
+		<true/>
+	</dict>
+
+	<!-- Face ID / Touch ID for Authentication -->
+	<key>NSFaceIDUsageDescription</key>
+	<string>Road Helper uses Face ID or Touch ID for secure authentication and quick access to emergency features.</string>
+
+	<!-- Motion and Fitness for Emergency Detection -->
+	<key>NSMotionUsageDescription</key>
+	<string>Road Helper uses motion sensors to detect emergency situations and provide automatic safety alerts.</string>
+
+	<!-- Bluetooth for Emergency Beacons (if needed) -->
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Road Helper may use Bluetooth to connect with emergency devices and beacons for enhanced safety features.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Road Helper may use Bluetooth to communicate with emergency devices and provide location services.</string>
+
+	<!-- Speech Recognition for Voice Commands -->
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Road Helper uses speech recognition for voice-activated emergency commands and accessibility features.</string>
+
+	<!-- Siri Integration for Emergency Commands -->
+	<key>NSSiriUsageDescription</key>
+	<string>Road Helper integrates with Siri to provide voice-activated emergency commands and quick access to safety features.</string>
+	<!-- App Bundle Configuration -->
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Road Helperr</string>
+	<string>Road Helper</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -38,8 +89,25 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.example.roadHelperr</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>roadhelper</string>
+			</array>
+		</dict>
+	</array>
+
+	<!-- iOS Requirements -->
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>MinimumOSVersion</key>
+	<string>12.0</string>
+
+	<!-- UI Configuration -->
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -57,9 +125,49 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+
+	<!-- Performance and Compatibility -->
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<!-- App Transport Security -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>81.10.91.96</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSExceptionMinimumTLSVersion</key>
+				<string>TLSv1.0</string>
+			</dict>
+		</dict>
+	</dict>
+
+	<!-- Firebase and Google Services -->
+	<key>GoogleAppID</key>
+	<string>1:550973504959:ios:a26a564e584213fd78350a</string>
+	<key>GoogleServiceInfoPlist</key>
+	<string>GoogleService-Info</string>
+
+	<!-- Emergency and Safety Features -->
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>telephony</string>
+		<string>location-services</string>
+	</array>
+
+	<!-- Shortcuts for Emergency Actions -->
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>com.example.roadHelperr.emergency</string>
+		<string>com.example.roadHelperr.help-request</string>
+	</array>
+
 </dict>
 </plist>

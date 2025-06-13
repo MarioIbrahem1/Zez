@@ -58,6 +58,8 @@ import 'package:flutter/foundation.dart';
 // SOS Emergency Feature Imports
 import 'package:road_helperr/services/sos_service.dart';
 import 'package:road_helperr/services/power_button_detector.dart';
+import 'package:road_helperr/services/ios_integration_service.dart';
+import 'dart:io';
 
 // Global navigator key for accessing the navigator from anywhere
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
@@ -283,46 +285,64 @@ Future<void> _initializeSOSServices() async {
     await SOSService().initialize();
     debugPrint('✅ SOS Service initialized');
 
-    // تهيئة خدمة كشف زر الطاقة
+    // تهيئة خدمات iOS إذا كان التطبيق يعمل على iOS
+    if (Platform.isIOS) {
+      try {
+        debugPrint('🍎 Initializing iOS-specific services...');
+        final iosIntegrationService = IOSIntegrationService.instance;
+        await iosIntegrationService.initialize();
+        debugPrint('✅ iOS Integration Service initialized');
+      } catch (e) {
+        debugPrint('❌ Error initializing iOS services: $e');
+      }
+    }
+
+    // تهيئة خدمة كشف زر الطاقة (Android) أو البدائل (iOS)
     try {
-      final powerButtonDetector = PowerButtonDetector();
-      await powerButtonDetector.initialize();
-      powerButtonDetector.setTriplePressCallback(() async {
-        debugPrint('🚨 MAIN: ===== EMERGENCY TRIGGERED BY POWER BUTTON! =====');
-        debugPrint('🚨 MAIN: Callback function called successfully');
-        debugPrint('🚨 MAIN: Starting SOS alert process...');
-
-        try {
-          debugPrint('🚨 MAIN: Calling SOSService().triggerSosAlert()...');
-          bool notificationSent = await SOSService().triggerSosAlert();
+      if (Platform.isAndroid) {
+        final powerButtonDetector = PowerButtonDetector();
+        await powerButtonDetector.initialize();
+        powerButtonDetector.setTriplePressCallback(() async {
           debugPrint(
-              '🚨 MAIN: SOSService().triggerSosAlert() returned: $notificationSent');
+              '🚨 MAIN: ===== EMERGENCY TRIGGERED BY POWER BUTTON! =====');
+          debugPrint('🚨 MAIN: Callback function called successfully');
+          debugPrint('🚨 MAIN: Starting SOS alert process...');
 
-          if (notificationSent) {
+          try {
+            debugPrint('🚨 MAIN: Calling SOSService().triggerSosAlert()...');
+            bool notificationSent = await SOSService().triggerSosAlert();
             debugPrint(
-                '✅ MAIN: SOS notification sent successfully from power button');
-          } else {
-            debugPrint(
-                '❌ MAIN: Failed to send SOS notification from power button');
-            if (navigatorKey.currentContext != null) {
-              ScaffoldMessenger.of(navigatorKey.currentContext!).showSnackBar(
-                const SnackBar(
-                  content:
-                      Text('Failed to send emergency alert. Please try again.'),
-                  backgroundColor: Colors.red,
-                ),
-              );
+                '🚨 MAIN: SOSService().triggerSosAlert() returned: $notificationSent');
+
+            if (notificationSent) {
+              debugPrint(
+                  '✅ MAIN: SOS notification sent successfully from power button');
+            } else {
+              debugPrint(
+                  '❌ MAIN: Failed to send SOS notification from power button');
+              if (navigatorKey.currentContext != null) {
+                ScaffoldMessenger.of(navigatorKey.currentContext!).showSnackBar(
+                  const SnackBar(
+                    content: Text(
+                        'Failed to send emergency alert. Please try again.'),
+                    backgroundColor: Colors.red,
+                  ),
+                );
+              }
             }
+          } catch (e) {
+            debugPrint('❌ MAIN: Error during SOS alert: $e');
           }
-        } catch (e) {
-          debugPrint('❌ MAIN: Error during SOS alert: $e');
-        }
 
-        debugPrint('🚨 MAIN: ===== SOS PROCESS COMPLETED =====');
-      });
-      debugPrint('✅ Power Button Detector initialized');
+          debugPrint('🚨 MAIN: ===== SOS PROCESS COMPLETED =====');
+        });
+        debugPrint('✅ Android Power Button Detector initialized');
+      } else if (Platform.isIOS) {
+        debugPrint(
+            '✅ iOS Emergency Detection initialized (via iOS Integration Service)');
+      }
     } catch (e) {
-      debugPrint('❌ Error initializing power button detector: $e');
+      debugPrint('❌ Error initializing Emergency Detection: $e');
     }
 
     // ملاحظة: خدمة الخلفية معطلة مؤقتاً لتجنب مشاكل foreground service
